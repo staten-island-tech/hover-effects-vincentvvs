@@ -1,0 +1,244 @@
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn:after,
+.btn:link:after,
+.btn:visited:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0cf;
+  border-radius: 10rem;
+  z-index: -2;
+}
+
+.btn:before,
+.btn:link:before,
+.btn:visited:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #008fb3;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+
+.btn:hover,
+.btn:link:hover,
+.btn:visited:hover {
+  color: #fff;
+}
+
+.btn:hover:before,
+.btn:link:hover:before,
+.btn:visited:hover:before {
+  width: 100%;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bird {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  -webkit-transform: rotate(0) scale(1.4);
+  transform: rotate(0) scale(1.4);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.bird:hover {
+  -webkit-transform: scale(1);
+  -webkit-transform: rotate(-15deg) scale(1);
+  transform: rotate(15deg) scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.netflix {
+  color: Red;
+  background-color: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 8rem;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+  margin-bottom: 2vh;
+}
+
+.netflix:hover {
+  cursor: pointer;
+  -webkit-animation: rubberBand 02s;
+}
+
+/* used to scale specific intervals like movie framing */
+@-webkit-keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(3, 0.75, 1);
+    transform: scale3d(3, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.disney {
+  -webkit-transition: ease-in-out 0.6s;
+  transition: ease-in-out 0.6s;
+  border-radius: 5rem;
+  margin-top: -1vh;
+}
+
+.disney:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: ease-in-out 0.6s;
+  transition: ease-in-out 0.6s;
+  animation: fadeOut ease 4s;
+  -webkit-animation: fadeOut ease 4s;
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.arnold {
+  margin-top: 1vh;
+  position: relative;
+}
+
+.arnold:hover {
+  -webkit-box-shadow: 1px 1px black, 5px 5px black, 6px 6px black;
+          box-shadow: 1px 1px black, 5px 5px black, 6px 6px black;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+}
+
+.container {
+  width: 80vw;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

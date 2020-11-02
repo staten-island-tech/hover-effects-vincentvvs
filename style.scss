@@ -1,0 +1,18 @@
+@import "_variables.scss";
+@import "_btn.scss";
+@import "_bird.scss";
+@import "_netflix.scss";
+@import "_disney.scss";
+@import "_arnold.scss";
+
+.container {
+  width: 80vw;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+
+  align-items: center;
+  text-align: center;
+}

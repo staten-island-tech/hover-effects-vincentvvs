@@ -1,0 +1,52 @@
+@import "_variables.scss";
+
+.netflix {
+  color: Red;
+  background-color: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 8rem;
+  transform: scale3d(1, 1, 1);
+  margin-bottom: 2vh;
+}
+.netflix:hover {
+  cursor: pointer;
+  -webkit-animation: rubberBand 02s;
+}
+/* used to scale specific intervals like movie framing */
+@-webkit-keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(3, 0.75, 1);
+    transform: scale3d(3, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}

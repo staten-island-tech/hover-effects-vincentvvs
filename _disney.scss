@@ -1,0 +1,22 @@
+@import "_variables.scss";
+
+.disney {
+  transition: ease-in-out 0.6s;
+  border-radius: 5rem;
+  margin-top: -1vh;
+}
+
+.disney:hover {
+  filter: grayscale(100%);
+  transition: ease-in-out 0.6s;
+  animation: fadeOut ease 4s;
+  -webkit-animation: fadeOut ease 4s;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
